@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Home -->
+  <header id="home" class="hero">
+    <div class="hero-container">
+      <!-- Left Side: Photo -->
+      <div class="hero-left">
+        <img src="images/n.jpg" alt="My Photo" class="profile-photo">
+      </div>
+
+      <!-- Right Side: About Me -->
+      <div class="hero-right">
+        <h1>Hi, I'm <span id="name">Arunaesh Kanna A K</span></h1>
+        <p id="role">Web Developer | ML Engineer | Coder</p>
+        <p class="about-text">
+          I’m a passionate developer who loves creating impactful web apps and AI-driven solutions. 
+          With expertise in full-stack development and machine learning, I strive to build scalable, 
+          innovative, and user-friendly applications that solve real-world problems.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="resume.pdf" download class="btn-secondary">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+      <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+      <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
+      <div class="skill-card"><i class="fab fa-git-alt"></i><p>Git</p></div>
+      <div class="skill-card"><i class="fas fa-brain"></i><p>Machine Learning</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio built with HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+        <a href="https://github.com/yourgithub/portfolio" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Landmark Recognition</h3>
+        <p>AI system that identifies landmarks from images using TensorFlow, Geopy, Folium, and Wikipedia API.</p>
+        <a href="https://github.com/Arunaeshkanna/landmark-recognition" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Pest Detection System</h3>
+        <p>Real-time insect detection app using ResNet50, Wikipedia integration, and interactive maps.</p>
+        <a href="https://github.com/Arunaeshkanna/Pest-Detection-Application" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Sentiment-Analysis LLM Project</h3>
+        <p>An AI-powered sentiment analyzer that classifies reviews using Gemini and finds similar ones with FAISS.</p>
+        <a href="https://github.com/Arunaeshkanna/sentiment-analyzer-using-a-simple-LLM-RAG-" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Crop Recommodation System</h3>
+        <p>An AI-powered crop recommendation system that predicts the best crop and provides dynamic insights using Gemini, Wikipedia, and ML.</p>
+        <a href="https://github.com/Arunaeshkanna/Crop-Recommodation-System-project" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="arunaeshkanna9@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Arunaeshkanna" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/arunaesh-kanna/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Arunaesh Kanna. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
